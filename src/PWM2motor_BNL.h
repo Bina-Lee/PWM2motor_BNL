@@ -5,10 +5,10 @@
 
 class PWM2motor_BNL{
     public:
-        PWM2motor_BNL(int A1, int A2,
-                    int pwmA,
-                    int B1, int B2,
-                    int pwmB);
+        PWM2motor_BNL(int motorA1, int motorA2,
+                    int motorBpwm,
+                    int motorB1, int motorB2,
+                    int motorBpwm);
         void begin();
         void setMotorA(int value);
         void setMotorB(int value);
