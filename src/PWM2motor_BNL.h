@@ -17,10 +17,10 @@ class PWM2motor_BNL{
         void allStop();
     private:
         const int _A1;
-        const int _A2
+        const int _A2;
         const int _pwmA;
         const int _B1;
-        const int _B2
+        const int _B2;
         const int _pwmB;
         int _pwmA_value = 0;
         int _pwmB_value = 0;
