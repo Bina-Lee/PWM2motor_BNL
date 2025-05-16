@@ -13,6 +13,8 @@ class PWM2motor_BNL{
         void setMotorA(int value);
         void setMotorB(int value);
         void setMotor(int valueA, int valueB);
+
+        void allStop();
     private:
         const int _A1;
         const int _A2
