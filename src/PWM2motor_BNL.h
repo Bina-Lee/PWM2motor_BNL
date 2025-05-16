@@ -6,7 +6,7 @@
 class PWM2motor_BNL{
     public:
         PWM2motor_BNL(int motorA1, int motorA2,
-                    int motorBpwm,
+                    int motorApwm,
                     int motorB1, int motorB2,
                     int motorBpwm);
         void begin();
