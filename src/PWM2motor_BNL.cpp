@@ -1,11 +1,11 @@
 #include "PWM2motor_BNL.h"
 
-PWM2motor_BNL::PWM2motor_BNL(int A1, int A2,
-                            int pwmA,
-                            int B1, int B2,
-                            int pwmB)
-    : _A1(A1), _A2(A2), _pwmA(pwmA),
-      _B1(B1), _B2(B2), _pwmB(pwmB) {}
+PWM2motor_BNL::PWM2motor_BNL(int motorA1, int motorA2,
+                             int motorApwm,
+                             int motorB1, int motorB2,
+                             int motorBpwm)
+    : _A1(motorA1), _A2(motorA2), _pwmA(motorApwm),
+      _B1(motorB1), _B2(motorB2), _pwmB(motorBpwm) {}
 
 void PWM2motor_BNL::begin() {
     pinMode(_A1, OUTPUT);
